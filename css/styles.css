@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK:300,400,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.flexContainer {
+  display: grid;
+}
+
+nav {
+  padding: 10px 40px 20px 20px;
+  text-align: right;
+}
+
+nav a {
+  font-size: 20px;
+}
+
+nav img {
+  height: auto;
+  width: 30px;
+}
+
+a {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 300;
+  outline: 0;
+  text-decoration: none;
+}
+
+.about {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 300;
+  font-size: 25px;
+  order: 2;
+  padding: 10px 50px 50px 50px;
+}
+
+.dropCap {
+  background-color: #295ce7;
+  border-radius: 70%;
+  box-shadow: 7px 7px 30px #919191;
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 50px;
+  padding: 0 20px 0 20px;
+  text-align: center;
+  width: 110px;
+}
+
+.about p {
+  margin-top: 20px;
+}
+
+.projects {
+  /* border: 1px solid green; */
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  order: 3;
+}
+
+.projects h3 {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.bookhub {
+  font-family: 'Noto Sans HK', sans-serif;
+  text-align: center;
+  width: 500px;
+}
+
+.bookhub h4 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 3px;
+  margin-top: 5px;
+}
+
+.bookhub img {
+  height: auto;
+  width: 80%;
+  position: relative;
+}
+
+#codeUsed {
+  font-weight: 300;
+  /* padding-left: 10px; */
+}
+
+#codeUsed span {
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-left: 4px;
+  padding: 5px;
+}
+
+.contact {
+  order: 4;
+  text-align: center;
+}
+
+.contact a {
+  font-size: 20px;
+  padding: 20px;
+}
+
+footer {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 200;
+  text-align: center;
+}
+
+/* More Page */
+
+.flexContainerMore {
+  display: grid;
+  margin-bottom: 50px;
+}
+
+#work {
+  display: grid;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 400;
+  margin-left: 40px;
+  width: 700px;
+}
+
+#shadow {
+  box-shadow: 7px 7px 30px #919191;
+}
+
+.workCard1 {
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.workCard1 p:first-child {
+  margin-bottom: 0;
+}
+
+.workCard1 p:nth-last-child(2){
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.workCard1 ol {
+  font-weight: 330;
+  list-style-type: disc;
+}
+
+.workCard2 {
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.workCard2 p:first-child {
+  margin-bottom: 0;
+}
+
+.workCard2 p:nth-last-child(2){
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.workCard2 ol {
+  font-weight: 330;
+  list-style-type: disc;
+}
+
+.workCard3 {
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.workCard3 p:first-child {
+  margin-bottom: 0;
+}
+
+.workCard3 p:nth-last-child(2){
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.workCard3 ol {
+  font-weight: 330;
+  list-style-type: disc;
+}
+
+#skills {
+  font-family: 'Noto Sans HK', sans-serif;
+  font-weight: 400;
+  grid-column-start: 2;
+  margin-left: 100px;
+  margin-top: 120px;
+  width: 100px;
+}
+
+#skills p {
+  font-weight: 300;
+}
+
+#education {
+  font-family: 'Noto Sans HK', sans-serif;
+  grid-column-start: 3;
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 70px;
+  width: 300px;
+}
+
+#education p {
+  font-weight: 300;
+}
+
+#education p:first-child {
+  margin-bottom: -15px;
+}
+
+#education p:nth-child(2){
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+/* Dark Mode */
+
+body.dark {
+  background-color: #181818;
+  color: #fff;
+}
+
+.dropCap.dark {
+  background-color: #8708db;
+}
+
+a.dark {
+  color: #fff;
+  text-decoration: none;
+}
+
+.codeTag.dark {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px;  
+}
+
+.workCard1.dark {
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.workCard2.dark {
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+.workCard3.dark {
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+/* Project Animation */
+
+#bookLink.animate {
+  opacity: 0.7;
+  /* bottom: 10px; */
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1025px){
+  
+  #work {
+    margin-left: 20px;
+    width: 500px;
+  }
+  
+  #shadow {
+    width: 500px;
+  }
+
+  #skills {
+    margin-left: 50px;
+  }
+
+  #education {
+    margin-left: 30px;
+  }
+}
+
+
+@media only screen and (max-width: 450px){
+
+  #shadow {
+    width: 350px;
+    margin-right: 10px;
+  }
+
+  #skills {
+    margin-left: -100px;
+  }
+
+  #education {
+    margin-left: 60px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+
+  #work {
+    margin-left: 20px;
+  }
+
+  #shadow {
+    width: 700px;
+  }
+
+  #skills {
+    grid-column-start: 1;
+    grid-row-start: 2;
+  }
+
+  #education {
+    margin-top: 170px;
+    margin-left: -150px;
+    grid-column-start: 2;
+    grid-row-start: 2;
+  }
+}
+
+@media only screen and (max-width: 376px){
+  nav {
+    padding: 0;
+    margin: 0;
+  }
+
+  .about {
+    width: 375px;
+  }
+
+  .projects {
+    width: 375px;
+  }
+
+  .bookhub {
+    width: 375px;
+  }
+
+  .contact {
+    width: 375px;
+  }
+
+  .bookhub img {
+    height: auto;
+    width: 75%;
+  }
+
+  #shadow {
+    width: 350px;
+  }
+
+  #work {
+    margin-left: 0;
+    width: 350px;
+  }
+
+  #work h1 {
+    width: 350px;
+  }
+
+  #skills {
+    margin-left: 30px;
+    grid-column-start: 1;
+  }
+
+  #education {
+   margin-left: 10px;
+   margin-top: 0;
+   grid-column-start: 1;
+   grid-row-start: 3;
+  }
+}
