@@ -6,6 +6,7 @@
 
 .flexContainer {
   display: grid;
+
 }
 
 nav {
@@ -122,6 +123,7 @@ footer {
 .flexContainerMore {
   display: grid;
   margin-bottom: 50px;
+  margin-top: -150px;
 }
 
 #work {
