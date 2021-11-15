@@ -147,7 +147,7 @@ footer {
   margin-bottom: 0;
 }
 
-.workCard1 p:nth-last-child(2){
+.workCard1 p:nth-last-child(2) {
   font-style: italic;
   margin-top: 2px;
 }
@@ -166,7 +166,7 @@ footer {
   margin-bottom: 0;
 }
 
-.workCard2 p:nth-last-child(2){
+.workCard2 p:nth-last-child(2) {
   font-style: italic;
   margin-top: 2px;
 }
@@ -185,7 +185,7 @@ footer {
   margin-bottom: 0;
 }
 
-.workCard3 p:nth-last-child(2){
+.workCard3 p:nth-last-child(2) {
   font-style: italic;
   margin-top: 2px;
 }
@@ -204,12 +204,31 @@ footer {
   margin-bottom: 0;
 }
 
-.workCard4 p:nth-last-child(2){
+.workCard4 p:nth-last-child(2) {
   font-style: italic;
   margin-top: 2px;
 }
 
 .workCard4 ol {
+  font-weight: 330;
+  list-style-type: disc;
+}
+
+.workCard5 {
+  border: 1px solid #000;
+  padding: 20px;
+}
+
+.workCard5 p:first-child {
+  margin-bottom: 0;
+}
+
+.workCard5 p:nth-last-child(2) {
+  font-style: italic;
+  margin-top: 2px;
+}
+
+.workCard5 ol {
   font-weight: 330;
   list-style-type: disc;
 }
@@ -244,7 +263,7 @@ footer {
   margin-bottom: -15px;
 }
 
-#education p:nth-child(2){
+#education p:nth-child(2) {
   font-style: italic;
   margin-bottom: 30px;
 }
@@ -270,7 +289,7 @@ a.dark {
   border-radius: 5px;
   margin-left: 5px;
   margin-right: 5px;
-  padding: 5px;  
+  padding: 5px;
 }
 
 .workCard1.dark {
@@ -297,13 +316,13 @@ a.dark {
 
 /* Responsive */
 
-@media only screen and (max-width: 1025px){
-  
+@media only screen and (max-width: 1025px) {
+
   #work {
     margin-left: 20px;
     width: 500px;
   }
-  
+
   #shadow {
     width: 500px;
   }
@@ -318,7 +337,7 @@ a.dark {
 }
 
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 450px) {
 
   #shadow {
     width: 350px;
@@ -358,7 +377,7 @@ a.dark {
   }
 }
 
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 376px) {
   nav {
     padding: 0;
     margin: 0;
@@ -404,9 +423,9 @@ a.dark {
   }
 
   #education {
-   margin-left: 10px;
-   margin-top: 0;
-   grid-column-start: 1;
-   grid-row-start: 3;
+    margin-left: 10px;
+    margin-top: 0;
+    grid-column-start: 1;
+    grid-row-start: 3;
   }
 }
